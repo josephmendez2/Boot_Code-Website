@@ -1,6 +1,6 @@
 # Boot_Code-Website
  
-In order to use our site follow this instructions(For whoever grades this):
+In order to use our site follow this instructions:
 
 1. Go to the "log in" page located in our NAV bar called LOG IN.
 2. In the "UserName" box, type in either "admin", "organizer", or "participant" in that box.

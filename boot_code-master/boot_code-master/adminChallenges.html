@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="A website designed to test coding skills.">
+	<meta name="author" content="Joseph Mendez, Eleni Kokoris, and Yael Weiss.">
+	<title>Boot_Code | Admin's Page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./YWFolder/all.min.css">
+	<script defer src="challenges.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1>Boot_Code</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="adminHome.html">Home</a></li>
+					<li class="current"><a href="adminChallenges.html">Challenges</a></li>
+					<li><a href="manageUsers.html">Manage Users</a></li>
+					<li><a href="challenges.html">Log out</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="smallsection">
+		<div class="container">
+			<h1>Click on a challenge title to attempt, update, or remove that challenge.</h1>
+		</div>
+	</section>
+
+	<section class="challenges" id="main-challenges-admin">
+		<div class="challenges-list" id="challenges-list">
+		<h2> Welcome: Admin </h2>
+			<ol>
+				<li>Hello World <i class="fas fa-pen-square"></i><i class="fas fa-trash"></i> </li>
+				<li>Find the Sum of Three Integers <i class="fas fa-pen-square"></i> <i class="fas fa-trash"></i></li>
+				<li>Find the Mean of Three Integers  <i class="fas fa-pen-square"></i> <i class="fas fa-trash"></i></li>
+			</ol>
+		</div>
+		<div class="challenges-view-area" id="challenges-view-area">
+			<div>
+				<div data-edit-challenge>
+					<textarea>
+					With Java, write code that will print the expression, "Hello World".
+ 
+					</textarea>
+					<br>
+					<form action="">
+					<button type="submit" class="challengebtn">Save</button>
+					</form>
+				</div>
+				<div data-try-challenge>
+					<p>
+						With Java, write code that will print the expression, "Hello World".
+					</p>
+					<textarea>
+					</textarea>
+					<br>
+					<form action="">
+					<button type="submit" class="challengebtn">Submit</button>
+<!--					<input type="button" name="answer" value="See Solution" onclick="onClickSolutionOne()" />-->
+					<button class="challengebtn" onclick="onClickSolutionOne()">Solution</button>
+					</form>
+				</div>
+			</div>
+			<div>
+				<div data-edit-challenge>
+					<textarea>
+						With Java, let's compute the sum of three integers.
+						Create three different variables where:
+						- a is the first integer input
+						- b is the second integer input
+						- c is the third integer input
+						Give your three variables their own values.
+						Create a sum variable that stores and adds a,b,c.
+						Print the value held in the sum variable.
+					</textarea>
+					<br>
+					<form action="">
+					<button type="submit" class="challengebtn">Save</button>
+					</form>
+				</div>
+				<div data-try-challenge>
+					<p>
+						With Java, let's compute the sum of three integers.
+						Create three different variables where:
+					</p>
+					<ul>
+						<li>a is the first integer input</li>
+						<li>b is the second integer input</li>
+						<li>c is the third integer input</li>
+					</ul>
+					<p>
+						Give your three variables their own values.
+						Create a sum variable that stores and adds a,b,c.
+						Print the value held in the sum variable.
+					</p>
+					<textarea>
+					</textarea>
+					<br>
+					<form action="">
+					<button type="submit" class="challengebtn">Submit</button>
+					<button class="challengebtn"  onclick="onClickSolutionTwo()">Solution</button>
+					</form>
+				</div>
+			</div>
+			<div>
+				<div data-edit-challenge>
+					<textarea>
+						With Java, let's compute the mean of three integers.
+						Create three different variables where: 
+						
+						- a is the first integer input
+						- b is the second integer input
+						- c is the third integer input
+						
+						Give your three variables their own values.
+						Utilizing your knowledge of math, compute and print the mean of those variables.
+					</textarea>
+					<br>
+					<form action="">
+					<button type="submit" class="challengebtn">Save</button>
+					</form>
+				</div>
+				<div data-try-challenge>
+					<p>
+						With Java, let's compute the mean of three integers.
+						Create three different variables where: 
+					</p>
+					<ul>
+						<li>a is the first integer input</li>
+						<li>b is the second integer input</li>
+						<li>c is the third integer input</li>
+					</ul>
+					<p>
+						Give your three variables their own values.
+						Utilizing your knowledge of math, compute and print the mean of those variables.
+					</p>
+						<textarea>
+						</textarea>
+						<br>
+						<form action="">
+						<button type="submit" class="challengebtn">Submit</button>
+						<button class="challengebtn" onclick="onClickSolutionThree()">Solution</button>
+						</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>Boot_Code Organization, Copyright &copy; 2019</p>
+	</footer>
+
+</body></html>
